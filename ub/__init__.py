@@ -1,7 +1,7 @@
 from pyrogram import Client
 from config import BOT_TOKEN, SESSION1, SESSION2, SESSION3, SESSION4, SESSION5, SESSION6, SESSION7, SESSION8, SESSION9, SESSION10, SESSION11, SESSION12, SESSION13, SESSION14, SESSION15, SESSION16, SESSION17, SESSION18, SESSION19, SESSION20 
 from datetime import datetime
-import time
+import time, asyncio
 from aiohttp import ClientSession
 
 StartTime = time.time()
@@ -9,7 +9,6 @@ START_TIME = datetime.now()
 
 
 clients = []
-ids = []
 
 aiosession = ClientSession()
 
@@ -126,3 +125,21 @@ if SESSION20:
    print("Client20: Found.. Starting.. 📳")
    client20 = Client(name="twenty", api_id=API_ID, api_hash=API_HASH, session_string=SESSION20) 
    clients.append(client20)
+
+
+async def premium_bot():
+    try:
+        await app.start()
+        print(f"Bot Started As {app.me.first_name}")
+    except FloodWait as ex:
+        print(e)
+        await asyncio.sleep(ex.value)
+    for client in clients:
+       try:
+          await client.start()
+          print(f"Client started as {client.me.first_name}")
+       except Exception as e:
+          print(e)
+
+
+asyncio.get_event_loop().run_until_complete(premium_bot())
