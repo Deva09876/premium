@@ -1,4 +1,5 @@
 from pyrogram import Client
+from pyrogram.errors import FloodWait
 from config import BOT_TOKEN, SESSION1, SESSION2, SESSION3, SESSION4, SESSION5, SESSION6, SESSION7, SESSION8, SESSION9, SESSION10, SESSION11, SESSION12, SESSION13, SESSION14, SESSION15, SESSION16, SESSION17, SESSION18, SESSION19, SESSION20 
 from datetime import datetime
 import time, asyncio
