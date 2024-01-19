@@ -6,8 +6,8 @@ from aiohttp import ClientSession
 
 StartTime = time.time()
 START_TIME = datetime.now()
-CMD_HELP = {}
-SUDO_USER = SUDO_USERS
+
+
 clients = []
 ids = []
 
