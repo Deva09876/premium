@@ -30,50 +30,100 @@ app = Client(
 
 if SESSION1:
    print("Client1: Found.. Starting..📳")
-   client1 = Client(name="one", api_id=API_ID, api_hash=API_HASH, session_string=STRING_SESSION1, plugins=dict(root="Zaid/modules"))
+   client1 = Client(name="one", api_id=API_ID, api_hash=API_HASH, session_string=SESSION1)
    clients.append(client1)
 
 if SESSION2:
    print("Client2: Found.. Starting.. 📳")
-   client2 = Client(name="two", api_id=API_ID, api_hash=API_HASH, session_string=STRING_SESSION2, plugins=dict(root="Zaid/modules"))
+   client2 = Client(name="two", api_id=API_ID, api_hash=API_HASH, session_string=SESSION2)
    clients.append(client2)
 
 if SESSION3:
    print("Client3: Found.. Starting.. 📳")
-   client3 = Client(name="three", api_id=API_ID, api_hash=API_HASH, session_string=STRING_SESSION3, plugins=dict(root="Zaid/modules"))
+   client3 = Client(name="three", api_id=API_ID, api_hash=API_HASH, session_string=SESSION3)
    clients.append(client3)
 
 if SESSION4:
    print("Client4: Found.. Starting.. 📳")
-   client4 = Client(name="four", api_id=API_ID, api_hash=API_HASH, session_string=STRING_SESSION4, plugins=dict(root="Zaid/modules"))
+   client4 = Client(name="four", api_id=API_ID, api_hash=API_HASH, session_string=SESSION4)
    clients.append(client4)
 
 if SESSION5:
    print("Client5: Found.. Starting.. 📳")
-   client5 = Client(name="five", api_id=API_ID, api_hash=API_HASH, session_string=STRING_SESSION5, plugins=dict(root="Zaid/modules"))
+   client5 = Client(name="five", api_id=API_ID, api_hash=API_HASH, session_string=SESSION5)
    clients.append(client5)
 
 if SESSION6:
    print("Client6: Found.. Starting.. 📳")
-   client6 = Client(name="six", api_id=API_ID, api_hash=API_HASH, session_string=STRING_SESSION6, plugins=dict(root="Zaid/modules"))
+   client6 = Client(name="six", api_id=API_ID, api_hash=API_HASH, session_string=SESSION6)
    clients.append(client6)
 
 if SESSION7:
    print("Client7: Found.. Starting.. 📳")
-   client7 = Client(name="seven", api_id=API_ID, api_hash=API_HASH, session_string=STRING_SESSION7, plugins=dict(root="Zaid/modules"))
+   client7 = Client(name="seven", api_id=API_ID, api_hash=API_HASH, session_string=SESSION7)
    clients.append(client7)
 
 if SESSION8:
    print("Client8: Found.. Starting.. 📳")
-   client8 = Client(name="eight", api_id=API_ID, api_hash=API_HASH, session_string=STRING_SESSION8, plugins=dict(root="Zaid/modules"))
+   client8 = Client(name="eight", api_id=API_ID, api_hash=API_HASH, session_string=SESSION8)
    clients.append(client8)
 
 if SESSION9:
    print("Client9: Found.. Starting.. 📳")
-   client9 = Client(name="nine", api_id=API_ID, api_hash=API_HASH, session_string=STRING_SESSION9, plugins=dict(root="Zaid/modules"))
+   client9 = Client(name="nine", api_id=API_ID, api_hash=API_HASH, session_string=SESSION9)
    clients.append(client9)
 
 if SESSION10:
    print("Client10: Found.. Starting.. 📳")
-   client10 = Client(name="ten", api_id=API_ID, api_hash=API_HASH, session_string=STRING_SESSION10, plugins=dict(root="Zaid/modules")) 
+   client10 = Client(name="ten", api_id=API_ID, api_hash=API_HASH, session_string=SESSION10) 
    clients.append(client10)
+
+if SESSION11:
+   print("Client11: Found.. Starting.. 📳")
+   client11 = Client(name="eleven", api_id=API_ID, api_hash=API_HASH, session_string=SESSION10) 
+   clients.append(client11)
+
+if SESSION12:
+   print("Client12: Found.. Starting.. 📳")
+   client12 = Client(name="twelve", api_id=API_ID, api_hash=API_HASH, session_string=SESSION2)
+   clients.append(client12)
+
+if SESSION13:
+   print("Client13: Found.. Starting.. 📳")
+   client13 = Client(name="thirteenth", api_id=API_ID, api_hash=API_HASH, session_string=SESSION3)
+   clients.append(client13)
+
+if SESSION14:
+   print("Client14: Found.. Starting.. 📳")
+   client14 = Client(name="fourteen", api_id=API_ID, api_hash=API_HASH, session_string=SESSION4)
+   clients.append(client14)
+
+if SESSION15:
+   print("Client15: Found.. Starting.. 📳")
+   client15 = Client(name="fifteen", api_id=API_ID, api_hash=API_HASH, session_string=SESSION5)
+   clients.append(client15)
+
+if SESSION16:
+   print("Client16: Found.. Starting.. 📳")
+   client16 = Client(name="sixteen", api_id=API_ID, api_hash=API_HASH, session_string=SESSION6)
+   clients.append(client16)
+
+if SESSION17:
+   print("Client17: Found.. Starting.. 📳")
+   client17 = Client(name="seventeen", api_id=API_ID, api_hash=API_HASH, session_string=SESSION7)
+   clients.append(client17)
+
+if SESSION18:
+   print("Client18: Found.. Starting.. 📳")
+   client18 = Client(name="eighteen", api_id=API_ID, api_hash=API_HASH, session_string=SESSION8)
+   clients.append(client18)
+
+if SESSION19:
+   print("Client19: Found.. Starting.. 📳")
+   client19 = Client(name="nineteen", api_id=API_ID, api_hash=API_HASH, session_string=SESSION9)
+   clients.append(client19)
+
+if SESSION20:
+   print("Client20: Found.. Starting.. 📳")
+   client20 = Client(name="twenty", api_id=API_ID, api_hash=API_HASH, session_string=SESSION10) 
+   clients.append(client20)
