@@ -1,4 +1,4 @@
-from pyrogra.types import Message
+from pyrogram.types import Message
 from ub import app
 
 @app.on_message(filters.command("start"))
