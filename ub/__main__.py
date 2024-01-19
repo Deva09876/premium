@@ -2,7 +2,7 @@ import asyncio
 import importlib
 from pyrogram import Client, idle
 from ub.modules import ALL_MODULES
-from ub import clients, app, ids
+from ub import clients, app
 
 async def start_bot():
     for all_module in ALL_MODULES:
