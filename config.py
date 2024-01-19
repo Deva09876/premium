@@ -6,7 +6,7 @@ load_dotenv()
 
 
 BOT_TOKEN = getenv("BOT_TOKEN", "")
-
+SUDOERS = list(map(int, getenv("SUDOERS", "").split()))
 
 SESSION1 = getenv("SESSION1", "")
 SESSION2 = getenv("SESSION2", "")
