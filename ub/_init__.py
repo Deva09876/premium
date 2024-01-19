@@ -80,50 +80,50 @@ if SESSION10:
 
 if SESSION11:
    print("Client11: Found.. Starting.. 📳")
-   client11 = Client(name="eleven", api_id=API_ID, api_hash=API_HASH, session_string=SESSION10) 
+   client11 = Client(name="eleven", api_id=API_ID, api_hash=API_HASH, session_string=SESSION11) 
    clients.append(client11)
 
 if SESSION12:
    print("Client12: Found.. Starting.. 📳")
-   client12 = Client(name="twelve", api_id=API_ID, api_hash=API_HASH, session_string=SESSION2)
+   client12 = Client(name="twelve", api_id=API_ID, api_hash=API_HASH, session_string=SESSION12)
    clients.append(client12)
 
 if SESSION13:
    print("Client13: Found.. Starting.. 📳")
-   client13 = Client(name="thirteenth", api_id=API_ID, api_hash=API_HASH, session_string=SESSION3)
+   client13 = Client(name="thirteenth", api_id=API_ID, api_hash=API_HASH, session_string=SESSION13)
    clients.append(client13)
 
 if SESSION14:
    print("Client14: Found.. Starting.. 📳")
-   client14 = Client(name="fourteen", api_id=API_ID, api_hash=API_HASH, session_string=SESSION4)
+   client14 = Client(name="fourteen", api_id=API_ID, api_hash=API_HASH, session_string=SESSION14)
    clients.append(client14)
 
 if SESSION15:
    print("Client15: Found.. Starting.. 📳")
-   client15 = Client(name="fifteen", api_id=API_ID, api_hash=API_HASH, session_string=SESSION5)
+   client15 = Client(name="fifteen", api_id=API_ID, api_hash=API_HASH, session_string=SESSION15)
    clients.append(client15)
 
 if SESSION16:
    print("Client16: Found.. Starting.. 📳")
-   client16 = Client(name="sixteen", api_id=API_ID, api_hash=API_HASH, session_string=SESSION6)
+   client16 = Client(name="sixteen", api_id=API_ID, api_hash=API_HASH, session_string=SESSION16)
    clients.append(client16)
 
 if SESSION17:
    print("Client17: Found.. Starting.. 📳")
-   client17 = Client(name="seventeen", api_id=API_ID, api_hash=API_HASH, session_string=SESSION7)
+   client17 = Client(name="seventeen", api_id=API_ID, api_hash=API_HASH, session_string=SESSION17)
    clients.append(client17)
 
 if SESSION18:
    print("Client18: Found.. Starting.. 📳")
-   client18 = Client(name="eighteen", api_id=API_ID, api_hash=API_HASH, session_string=SESSION8)
+   client18 = Client(name="eighteen", api_id=API_ID, api_hash=API_HASH, session_string=SESSION18)
    clients.append(client18)
 
 if SESSION19:
    print("Client19: Found.. Starting.. 📳")
-   client19 = Client(name="nineteen", api_id=API_ID, api_hash=API_HASH, session_string=SESSION9)
+   client19 = Client(name="nineteen", api_id=API_ID, api_hash=API_HASH, session_string=SESSION19)
    clients.append(client19)
 
 if SESSION20:
    print("Client20: Found.. Starting.. 📳")
-   client20 = Client(name="twenty", api_id=API_ID, api_hash=API_HASH, session_string=SESSION10) 
+   client20 = Client(name="twenty", api_id=API_ID, api_hash=API_HASH, session_string=SESSION20) 
    clients.append(client20)
