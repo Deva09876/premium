@@ -133,7 +133,7 @@ async def premium_bot():
         await app.start()
         print(f"Bot Started As {app.me.first_name}")
     except FloodWait as ex:
-        print(e)
+        print(ex)
         await asyncio.sleep(ex.value)
     for client in clients:
        try:
