@@ -1,6 +1,4 @@
-from ub import clients
+from ub import clients, app
 
 from pyrogram import filters
 from pyrogram.types import Message
-
-from ub import app
