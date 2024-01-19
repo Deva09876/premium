@@ -130,15 +130,10 @@ if SESSION20:
 async def premium_bot():
     try:
         await app.start()
+        print(f"Bot Started As {app.me.first_name}")
     except FloodWait as ex:
-        LOGGER.warning(ex)
-        await asyncio.sleep(ex.value)
-    try:
-       await app.send_message(chat_id="sanatanontop", "started")
-       print(f"Bot Started As {app.me.first_name}")
-    except Exception as e:
         print(e)
-        exit()
+        await asyncio.sleep(ex.value)
     for client in clients:
        try:
           await client.start()
