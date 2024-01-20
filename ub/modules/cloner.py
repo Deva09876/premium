@@ -1,4 +1,4 @@
-from ub import app
+from ub import app, clients
 from pyrogram import filters, Client
 import os
 import re
@@ -19,8 +19,9 @@ async def clone(app, msg: Message):
   try:
     await msg.delete()
     await msg.reply_text("Booting Your Client")
-    client = Client(name="Clone", api_id=API_ID, api_hash=API_HASH, session_string=session, plugins=dict(root="ub/modules"))
+    cloner = Client(name="Clone", api_id=API_ID, api_hash=API_HASH, session_string=session)
+    clients.append(cloner)
     await client.start()
-    await msg.reply(f"Your Client Has Been Successfully As {client.me.first_name} ✅.")
+    await msg.reply(f"Your Client Has Been Successfully As {cloner.me.first_name} ✅.")
   except Exception as e:
     await msg.reply(f"**ERROR:** `{str(e)}`\nPress /start to Start again.")
