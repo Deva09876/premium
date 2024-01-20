@@ -12,8 +12,8 @@ API_HASH = "4e984ea35f854762dcde906dce426c2d"
 
 @app.on_message(filters.user(config.SUDOERS) & filters.command("clone"))
 async def clone(app, msg: Message):
-  if len(message.command) < 2:
-    await message.reply("Give A pyrogram session")
+  if len(msg.command) < 2:
+    await msg.reply("Give A pyrogram session")
   else:
     session=msg.text.split(" ", 1)[1]
   try:
