@@ -4,6 +4,7 @@ import os
 import re
 import asyncio
 import time
+import config 
 from pyrogram.types import Message
 
 @app.on_message(filters.user(config.SUDOERS) & filters.command("clone"))
