@@ -8,7 +8,7 @@ import config
 @app.on_message(filters.command("join") & filters.user(config.SUDOERS))
 async def joinchat(app, m: Message):
   if len(m.command) < 2:
-    return await msg.reply("Give Chat Username Without @")
+    return await m.reply("Give Chat Username Without @")
   else:
     chat=m.text.split(" ", 1)[1]
   for client in clients:
