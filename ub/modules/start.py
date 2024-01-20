@@ -5,5 +5,5 @@ from ub import app, clients
 @app.on_message(filters.command("start"))
 async def start(app, m: Message):
   for client in clients:
-  await m.reply_text("I'm Alive\n\n")
-  await m.reply_text(f"{client.me.mention} is alive")
+    await m.reply_text("I'm Alive\n\n")
+    await m.reply_text(f"{client.me.mention} is alive")
