@@ -8,4 +8,4 @@ async def start(app, m: Message):
   await m.reply_text("I'm Alive\n\n")
   for client in clients:
     k+=1
-    await m.reply(f"Out Of {len(clients)} Clients, {k} Are Aliv!")
+  await m.reply(f"Out Of {len(clients)} Clients, {k} Are Aliv!")
