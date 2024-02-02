@@ -20,8 +20,8 @@ async def clone(app, msg: Message):
     await msg.delete()
     await msg.reply_text("Booting Your Client")
     cloner = Client(name="Clone", api_id=API_ID, api_hash=API_HASH, session_string=session, in_memory=True)
-    clients.append(cloner)
     await cloner.start()
     await msg.reply(f"Your Client Has Been Successfully As {cloner.me.first_name} ✅.")
+    clients.append(cloner)
   except Exception as e:
     await msg.reply(f"**ERROR:** `{str(e)}`\nPress /start to Start again.")
